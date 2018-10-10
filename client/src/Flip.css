@@ -18,7 +18,7 @@
   }
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-box:hover .flip-box-inner {
+  .flip-box.flipped .flip-box-inner {
     transform: rotateY(180deg);
   }
   
@@ -34,6 +34,8 @@
   .flip-box-front {
     background-color: transparent;
     color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .flip-box-front img {
