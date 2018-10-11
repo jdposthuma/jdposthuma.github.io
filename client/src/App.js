@@ -15,6 +15,30 @@ class App extends Component {
         name: "ruby",
         url: "http://www.ucatx.cat/wallpic/full/99/993147/ruby-rose-rwby-wallpaper.jpg",
         flipped: false
+      },
+      {
+        name: "weiss",
+        url: "https://vignette.wikia.nocookie.net/rwby/images/a/a1/WeissV5Profile.png/revision/latest?cb=20180115225623",
+        flipped: false
+      },
+      {
+        name: "yang",
+        url:
+       "https://vignette.wikia.nocookie.net/rwby/images/4/47/Yang_Vol_5_Profile.png/revision/latest?cb=20171017205551",
+        flipped: false
+
+      },  
+      {
+      name: "nora",
+      url:
+      "https://vignette.wikia.nocookie.net/rwby/images/0/04/NoraV5Ver2.png/revision/latest?cb=20180113042818"
+
+      },
+      {
+        name: "pyrrha",
+        url:
+        "https://vignette.wikia.nocookie.net/rwby/images/4/47/Vol2_Pyrrha_ProfilePic_Uniform.png/revision/latest?cb=20151114141423"
+
       }
     ]
   };
