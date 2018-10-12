@@ -95,7 +95,7 @@ class App extends Component {
           {
             this.state.list.map(x => {
               return (
-                <div className={"flip-box" + (x.flipped ? " flipped" : "")} onClick={this.clicked.bind(this, x)}>
+                <div className={"character flip-box" + (x.flipped ? " flipped" : "")} onClick={this.clicked.bind(this, x)}>
                   <div className="flip-box-inner">
                     <div className="flip-box-front" style={{
                       backgroundImage: "url(" + x.url + ")"
