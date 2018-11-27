@@ -49,24 +49,24 @@ class App extends Component {
         name: "jaune",
         url:
           "https://vignette.wikia.nocookie.net/rwby/images/1/18/Jaune_ProfilePic_4.png/revision/latest?cb=20161104220926"
-      },   
+      },
       {
         name: "cinder",
         url:
-        "https://vignette.wikia.nocookie.net/rwby/images/2/24/Cinder_ProfilePic_Normal.png/revision/latest?cb=20141223010925"
+          "https://vignette.wikia.nocookie.net/rwby/images/2/24/Cinder_ProfilePic_Normal.png/revision/latest?cb=20141223010925"
       },
       {
-      name: "qrow",
-      url:
-      "https://pbs.twimg.com/media/CvqLhkkVMAAyAgL.jpg"
+        name: "qrow",
+        url:
+          "https://pbs.twimg.com/media/CvqLhkkVMAAyAgL.jpg"
       },
       {
-      name: "salem",
-      url: "https://cdn.jwplayer.com/thumbs/8rFogOxZ-720.jpg"
-      
+        name: "salem",
+        url: "https://cdn.jwplayer.com/thumbs/8rFogOxZ-720.jpg"
+
       }
-      
-      ]
+
+    ]
   };
 
   constructor(props) {
@@ -91,7 +91,12 @@ class App extends Component {
 
     return (
       <div className="App">
-        <header className="App-header">
+        <header>
+          <h1 className="title">
+            RWBY Guess Who
+          </h1>
+        </header>
+        <main className="App-header">
           {
             this.state.list.map(x => {
               return (
@@ -109,7 +114,7 @@ class App extends Component {
               );
             })
           }
-        </header>
+        </main>
       </div>
     );
   }
