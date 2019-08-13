@@ -40,3 +40,8 @@
 .character {
   margin: .5rem;
 }
+
+.cta{
+  background: blue;
+  color: white
+}

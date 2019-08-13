@@ -5,6 +5,7 @@ import './Flip.css';
 class App extends Component {
 
   state = {
+    showSplashScreen: true,
     list: [
       {
         name: "blake",
@@ -63,9 +64,11 @@ class App extends Component {
       {
         name: "salem",
         url: "https://cdn.jwplayer.com/thumbs/8rFogOxZ-720.jpg"
-
+      },
+      {
+        name: "ginn",
+        url: "https://66.media.tumblr.com/81ad698b6cb36cc30495d320d69171de/tumblr_phqcgghHwG1sulkx1_1280.jpg",
       }
-
     ]
   };
 
@@ -87,36 +90,64 @@ class App extends Component {
     }));
   }
 
+  startGame() {
+    // TODO: Make work
+    this.setState({
+      showSplashScreen: false
+    });
+  }
+
   render() {
 
-    return (
-      <div className="App">
-        <header>
-          <h1 className="title">
-            RWBY Guess Who
+    // chek show state
+    // if true render splashscrees
+    // if not render game
+
+    if (this.state.showSplashScreen === true) {
+      return (
+        <div className="App">
+          <header>
+            <h1 className="title">
+              Welcome!
           </h1>
-        </header>
-        <main className="App-header">
-          {
-            this.state.list.map(x => {
-              return (
-                <div className={"character flip-box" + (x.flipped ? " flipped" : "")} onClick={this.clicked.bind(this, x)}>
-                  <div className="flip-box-inner">
-                    <div className="flip-box-front" style={{
-                      backgroundImage: "url(" + x.url + ")"
-                    }}>
-                    </div>
-                    <div className="flip-box-back">
-                      <h2>{x.name}</h2>
+          </header>
+          <main className="App-header">
+            <button className="cta" onClick={this.startGame.bind(this)}>
+              Start Game
+           </button>
+          </main>
+        </div>
+      );
+    } else {
+      return (
+        <div className="App">
+          <header>
+            <h1 className="title">
+              RWBY Guess Who
+          </h1>
+          </header>
+          <main className="App-header">
+            {
+              this.state.list.map(x => {
+                return (
+                  <div className={"character flip-box" + (x.flipped ? " flipped" : "")} onClick={this.clicked.bind(this, x)}>
+                    <div className="flip-box-inner">
+                      <div className="flip-box-front" style={{
+                        backgroundImage: "url(" + x.url + ")"
+                      }}>
+                      </div>
+                      <div className="flip-box-back">
+                        <h2>{x.name}</h2>
+                      </div>
                     </div>
                   </div>
-                </div>
-              );
-            })
-          }
-        </main>
-      </div>
-    );
+                );
+              })
+            }
+          </main>
+        </div>
+      );
+    }
   }
 }
 
