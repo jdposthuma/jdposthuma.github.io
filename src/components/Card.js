@@ -2,22 +2,27 @@ import React, { useState } from 'react';
 
 function Card(props) {
 
-    const { character } = props,
-    [isFlipped, setIsFlipped] = useState(character.flipped);
+    const { character, isMini, hasSelectedCharacter } = props,
+    [isFlipped, setIsFlipped] = useState(character ? character.flipped : false);
 
     function flipCharacter() {
         setIsFlipped(!isFlipped)
     }
 
+    function selectCharacter() {
+        props.onChange(character);
+    }
+  
     return (
-        <div className={"character flip-box " + (isFlipped ? "flipped" : "")} onClick={flipCharacter}>
+        <div className={"character flip-box " + (isFlipped ? "flipped" : "") + (isMini ? "mini" : "")} onClick={flipCharacter}>
             <div className="flip-box-inner" >
-                <div className="flip-box-front" style={{ backgroundImage: "url(" + character.url + ")" }}>
+                <div className="flip-box-front" style={character ? { backgroundImage: "url(" + character.url + ")" } : {backgroundColor:"lightgray"}}>
                 </div>
                 <div className="flip-box-back" >
-                    <h2 >{character.name}</h2>
+                    <h2 >{character ? character.name : "me"}</h2>
                 </div >
             </div>
+           {!isMini && !hasSelectedCharacter ? <div className="select" onClick={selectCharacter}><span>Select</span></div> : null}
         </div >
     );
 }
