@@ -198,7 +198,7 @@ const games = {
         },
         {
             name: "Nora",
-            url: "https://vignette.wikia.nocookie.net/world-war-fan-fiction-series/images/e/e0/Nora_Valkyrie.png/revision/latest/scale-to-width-down/340?cb=20190118234549",
+            url: "https://vignette.wikia.nocookie.net/eternalwitness/images/3/39/Vol2_Nora_ProfilePic_PJ.png/revision/latest?cb=20161005032405",
             flipped: false
         },
         {
@@ -220,7 +220,54 @@ const games = {
             name: "Neo",
             url: "https://vignette.wikia.nocookie.net/rwby/images/7/73/Vol2_Neo_ProfilePic_Normal.png/revision/latest?cb=20160208183309",
             flipped: false
-        }
+        },
+        {
+            name: "torchwick",
+            url:  "https://i.ytimg.com/vi/0BDx-mnFUnk/maxresdefault.jpg",
+            flipped: false
+        },
+        {
+            name: "ozpin",
+            url:  "https://pm1.narvii.com/6954/4c11e98f6be6aabc9e0d848e831404a2bdb19747r1-580-424v2_00.jpg",
+            flipped:false
+        },
+        {
+            name: "qrow",
+            url:  "https://pm1.narvii.com/6426/06194d110924f0fb31acfc1b333183abb2d63043_hq.jpg",
+            flipped: false
+        },
+        {
+            name: "",
+            url:  "",
+            flipped: false
+        },
+        {
+            name: "",
+            url:  "",
+            flipped: false
+        },
+        {
+            name: "",
+            url:  "",
+            flipped: false
+        },
+        {
+            name: "",
+            url:  "",
+            flipped: false
+        },
+        {
+            name: "",
+            url:  "",
+            flipped: false
+        },
+        {
+            name: "",
+            url:  "",
+            flipped: false
+        },
+
+
     ],
     "Jasons's SAO": [{
             name: "Asuna",
