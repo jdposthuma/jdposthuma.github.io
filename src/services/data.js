@@ -1,11 +1,11 @@
 const list = [{
         name: "blake",
-        url: "https://d1o51r9qdgnnlz.cloudfront.net/static_image/8fbc4829-7ccd-4cb4-a8ac-182dac6eb7a3/static.jpg",
+        url: "https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/12/Blake-Belladonna-In-RWBY-Volume-7.jpg",
         flipped: false
     },
     {
         name: "ruby",
-        url: "http://www.ucatx.cat/wallpic/full/99/993147/ruby-rose-rwby-wallpaper.jpg",
+        url: "https://vignette.wikia.nocookie.net/rwby/images/1/1f/Ruby_Alternative_Profile.png/revision/latest?cb=20191228162031",
         flipped: false
     },
     {
