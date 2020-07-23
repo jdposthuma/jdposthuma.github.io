@@ -76,27 +76,27 @@ const games = {
             flipped: false
         },
         {
-            name: "???",
+            name: "jaune",
             url: "https://pm1.narvii.com/6261/313c2cd4c04ad0918b256a14a30d6f537a6dcff3_00.jpg",
             flipped: false
         },
         {
             name: "Nora",
-            url: "https://vignette.wikia.nocookie.net/world-war-fan-fiction-series/images/e/e0/Nora_Valkyrie.png/revision/latest/scale-to-width-down/340?cb=20190118234549",
+            url: "https://vignette.wikia.nocookie.net/eternalwitness/images/3/39/Vol2_Nora_ProfilePic_PJ.png/revision/latest?cb=20161005032405",
             flipped: false
         },
         {
-            name: "Ren",
+            name: "pyrrha",
             url: "https://vignette.wikia.nocookie.net/rwby/images/7/74/V2_12_00031.png/revision/latest/scale-to-width-down/340?cb=20141030233125",
             flipped: false
         },
         {
-            name: "??",
+            name: "ren",
             url: "https://i.pinimg.com/originals/75/6d/4f/756d4f2ebabb992b05cbe313278fea23.png",
             flipped: false
         },
         {
-            name: "??",
+            name: "sun",
             url: "https://vignette.wikia.nocookie.net/rwby/images/8/88/Vol_6_Sun_Wukong.png/revision/latest/top-crop/width/360/height/450?cb=20190105050539",
             flipped: false
         },
@@ -104,7 +104,54 @@ const games = {
             name: "Neo",
             url: "https://vignette.wikia.nocookie.net/rwby/images/7/73/Vol2_Neo_ProfilePic_Normal.png/revision/latest?cb=20160208183309",
             flipped: false
-        }
+        },
+        {
+            name: "torchwick",
+            url:  "https://i.ytimg.com/vi/0BDx-mnFUnk/maxresdefault.jpg",
+            flipped: false
+        },
+        {
+            name: "ozpin",
+            url:  "https://pm1.narvii.com/6954/4c11e98f6be6aabc9e0d848e831404a2bdb19747r1-580-424v2_00.jpg",
+            flipped:false
+        },
+        {
+            name: "qrow",
+            url:  "https://pm1.narvii.com/6426/06194d110924f0fb31acfc1b333183abb2d63043_hq.jpg",
+            flipped: false
+        },
+        {
+            name: "",
+            url:  "",
+            flipped: false
+        },
+        {
+            name: "",
+            url:  "",
+            flipped: false
+        },
+        {
+            name: "",
+            url:  "",
+            flipped: false
+        },
+        {
+            name: "",
+            url:  "",
+            flipped: false
+        },
+        {
+            name: "",
+            url:  "",
+            flipped: false
+        },
+        {
+            name: "",
+            url:  "",
+            flipped: false
+        },
+
+
     ],
     "Jasons's SAO": [{
             name: "Asuna",
