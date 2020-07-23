@@ -1,7 +1,7 @@
 const games = {
     "Buddy's RWBY": [{
             name: "blake",
-            url: "https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/12/Blake-Belladonna-In-RWBY-Volume-7.jpg",
+            url: "https://vignette.wikia.nocookie.net/rwby/images/c/ca/Blake_V6_01_ProfilePic_2.png/revision/latest?cb=20190126062041",
             flipped: false
         },
         {
@@ -22,38 +22,88 @@ const games = {
         },
         {
             name: "nora",
-            url: "https://vignette.wikia.nocookie.net/rwby/images/0/04/NoraV5Ver2.png/revision/latest?cb=20180113042818"
+            url: "https://vignette.wikia.nocookie.net/rwby/images/0/04/NoraV5Ver2.png/revision/latest?cb=20180113042818",
 
         },
         {
             name: "pyrrha",
-            url: "https://vignette.wikia.nocookie.net/rwby/images/4/47/Vol2_Pyrrha_ProfilePic_Uniform.png/revision/latest?cb=20151114141423"
+            url: "https://vignette.wikia.nocookie.net/characterprofile/images/e/ee/Pyrrha.png/revision/latest/scale-to-width-down/340?cb=20160627201322",
 
         },
         {
             name: "ren",
-            url: "https://vignette.wikia.nocookie.net/rwby/images/8/83/Vol3_Ren_ProfilePic_Normal.png/revision/latest?cb=20160126164317"
+            url: "https://vignette.wikia.nocookie.net/rwby/images/8/83/Vol3_Ren_ProfilePic_Normal.png/revision/latest?cb=20160126164317",
         },
         {
             name: "jaune",
-            url: "https://vignette.wikia.nocookie.net/rwby/images/1/18/Jaune_ProfilePic_4.png/revision/latest?cb=20161104220926"
+            url: "https://vignette.wikia.nocookie.net/rwby/images/1/18/Jaune_ProfilePic_4.png/revision/latest?cb=20161104220926",
         },
         {
             name: "cinder",
-            url: "https://vignette.wikia.nocookie.net/rwby/images/2/24/Cinder_ProfilePic_Normal.png/revision/latest?cb=20141223010925"
+            url: "https://vignette.wikia.nocookie.net/rwby/images/2/24/Cinder_ProfilePic_Normal.png/revision/latest?cb=20141223010925",
         },
         {
             name: "qrow",
-            url: "https://pbs.twimg.com/media/CvqLhkkVMAAyAgL.jpg"
+            url: "https://pbs.twimg.com/media/CvqLhkkVMAAyAgL.jpg",
         },
         {
             name: "salem",
-            url: "https://cdn.jwplayer.com/thumbs/8rFogOxZ-720.jpg"
+            url: "https://cdn.jwplayer.com/thumbs/8rFogOxZ-720.jpg",
         },
         {
             name: "ginn",
             url: "https://66.media.tumblr.com/81ad698b6cb36cc30495d320d69171de/tumblr_phqcgghHwG1sulkx1_1280.jpg",
-        }
+        },
+        {
+            name: "ozpin",
+            url:  "https://pm1.narvii.com/6954/4c11e98f6be6aabc9e0d848e831404a2bdb19747r1-580-424v2_00.jpg",
+            flipped: false 
+        },
+        {
+            name: "neo",
+            url:  "https://i.redd.it/t6kknfdcl3t31.jpg",
+            flipped: false
+        },
+        {
+            name: "maria",
+            url:  "https://pm1.narvii.com/7034/d7d390b0391f4348eb6f6236636c7196cccffc1dr1-583-1166v2_hq.jpg",
+            flipped: false
+        },
+        {
+            name: "oscar",
+            url:  "https://vignette.wikia.nocookie.net/p__/images/b/b4/Oscar_Pine_V6.png/revision/latest?cb=20190106234913&path-prefix=protagonist",
+            flipped: false
+        },
+        {
+            name: "tyrian",
+            url:  "https://vignette.wikia.nocookie.net/rwby/images/5/56/V4_05_00061.png/revision/latest/top-crop/width/300/height/300?cb=20161204160524",
+            flipped: false
+        },
+        {
+            name: "hazel",
+            url:  "https://preview.redd.it/8mwp6v7dyho11.png?width=624&format=png&auto=webp&s=90d963bfba87bc35d383fba9884d9336b8b576ea",
+            flipped: false
+        },
+        {
+            name: "summer",
+            url:  "https://vignette.wikia.nocookie.net/rwby/images/4/42/Summer_Rose_V7_11_ProfilePic.png/revision/latest?cb=20200126193816",
+            flipped: false
+        },
+        {
+            name: "winter",
+            url:  "https://vignette.wikia.nocookie.net/rwby/images/4/47/WinterV5.png/revision/latest?cb=20180113031315",
+            flipped: false
+        },
+        {
+            name: "emerald",
+            url:  "https://vignette.wikia.nocookie.net/rwby/images/0/06/EmeraldV5.png/revision/latest/top-crop/width/360/height/450?cb=20190926103704",
+            flipped: false
+        },
+        {
+            name: "mercury",
+            url:  "https://i.ytimg.com/vi/Rtx_EFtZTV0/hqdefault.jpg",
+            flipped: false
+        },
     ],
     "Bay's RWBY": [{
             name: "Ruby",
@@ -76,7 +126,7 @@ const games = {
             flipped: false
         },
         {
-            name: "???",
+            name: "jaune",
             url: "https://pm1.narvii.com/6261/313c2cd4c04ad0918b256a14a30d6f537a6dcff3_00.jpg",
             flipped: false
         },
@@ -86,17 +136,17 @@ const games = {
             flipped: false
         },
         {
-            name: "Ren",
+            name: "pyrrha",
             url: "https://vignette.wikia.nocookie.net/rwby/images/7/74/V2_12_00031.png/revision/latest/scale-to-width-down/340?cb=20141030233125",
             flipped: false
         },
         {
-            name: "??",
+            name: "ren",
             url: "https://i.pinimg.com/originals/75/6d/4f/756d4f2ebabb992b05cbe313278fea23.png",
             flipped: false
         },
         {
-            name: "??",
+            name: "sun",
             url: "https://vignette.wikia.nocookie.net/rwby/images/8/88/Vol_6_Sun_Wukong.png/revision/latest/top-crop/width/360/height/450?cb=20190105050539",
             flipped: false
         },
