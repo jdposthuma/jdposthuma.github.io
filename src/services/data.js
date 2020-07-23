@@ -1,5 +1,5 @@
 const games = {
-    "Buddy's RWBY": [{
+    "Andreas' RWBY": [{
             name: "blake",
             url: "https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/12/Blake-Belladonna-In-RWBY-Volume-7.jpg",
             flipped: false
@@ -55,7 +55,7 @@ const games = {
             url: "https://66.media.tumblr.com/81ad698b6cb36cc30495d320d69171de/tumblr_phqcgghHwG1sulkx1_1280.jpg",
         }
     ],
-    "Bay's RWBY": [{
+    "Victoria's RWBY": [{
             name: "Ruby",
             url: "https://vignette.wikia.nocookie.net/rwby/images/c/ce/Vol3_Ruby_ProfilePic_Normal.png/revision/latest?cb=20160422133820",
             flipped: false
@@ -106,7 +106,7 @@ const games = {
             flipped: false
         }
     ],
-    "Dad's SAO": [{
+    "Jasons's SAO": [{
             name: "Asuna",
             url: "https://vignette.wikia.nocookie.net/sao-abridged/images/8/88/Asuna_SAO.png/revision/latest?cb=20190905123928",
             flipped: false
@@ -192,7 +192,7 @@ const games = {
             flipped: false
         }
     ],
-    "Mom's Harry Potter": [],
+    "Lorraine's Harry Potter": [],
     "Family": []
 };
 
