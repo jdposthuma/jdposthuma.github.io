@@ -109,7 +109,7 @@ const games = {
     "Dad's SAO":[
         {
             name: "Asuna",
-            url: "https://cdn.myanimelist.net/images/characters/15/262053.jpg",
+            url: "https://vignette.wikia.nocookie.net/sao-abridged/images/8/88/Asuna_SAO.png/revision/latest?cb=20190905123928",
             flipped: false
         },
         {
@@ -119,7 +119,7 @@ const games = {
         },
         {
             name: "Klein",
-            url: "https://pm1.narvii.com/5992/96ddef312274663ed981547cbc79bebaa5dcd3ca_00.jpg",
+            url: "https://vignette.wikia.nocookie.net/swordartonline/images/c/cb/Klein-RL.png/revision/latest?cb=20130814173542",
             flipped: false
         },
         {
@@ -175,6 +175,21 @@ const games = {
         {
             name: "Illfang the Cobalt Lord",
             url: "https://cdn.myanimelist.net/s/common/uploaded_files/1444463879-27a3b94bfb547baaf570cb84ab77763f.jpeg",
+            flipped: false
+        },
+        {
+            name: "Silica",
+            url: "https://vignette.wikia.nocookie.net/swordartonline/images/c/cc/Silica_SAO.png/revision/latest?cb=20140303082702",
+            flipped: false
+        },
+        {
+            name: "Sugo",
+            url: "https://vignette.wikia.nocookie.net/swordartonline/images/1/1d/Oberon.png/revision/latest?cb=20140303064545",
+            flipped: false
+        },
+        {
+            name: "Yui",
+            url: "https://cdn.myanimelist.net/images/characters/15/264165.jpg",
             flipped: false
         }
     ]
