@@ -16,7 +16,8 @@ function App() {
   const [myGames, setMyGames] = useState(games),
     [currentGameName, setCurrentGameName] = useState(null),
     [currentGame, setCurrentGame] = useState(null),
-    [showSplashScreen, setShowSplashScreen] = useState(true);
+    [showSplashScreen, setShowSplashScreen] = useState(true),
+    [selectedCharacter, setSelectedCharacter] = useState(null);
 
   function startGame(gameName) {
     setCurrentGameName(gameName)
@@ -24,8 +25,18 @@ function App() {
     setShowSplashScreen(false);
   }
 
+  function newGame() {
+    window.location.reload();
+  }
+
   function reset() {
-    setShowSplashScreen(true)
+    currentGame.forEach(x => x.flipped = false);
+    setSelectedCharacter(null)
+    setCurrentGame(currentGame);
+  }
+  
+  function selectCharacter(character) {
+    setSelectedCharacter(character);
   }
 
   function renderSplashScreen() {
@@ -34,9 +45,9 @@ function App() {
         <header>
           <h1 className="title" >Welcome!</h1>
         </header >
-        <main className="App-header" >
+        <main className="Game" >
           {
-            Object.keys(myGames).map(x => <button className="cta" key={x} onClick={() => startGame(x)} >{x}</button>)
+            Object.keys(myGames).map(x => <button className="game-button" key={x} onClick={() => startGame(x)} >{x}</button>)
           }
         </main >
       </div>
@@ -48,10 +59,14 @@ function App() {
       <div className="App" >
         <header>
           <h1 className="title">{currentGameName} Guess Who</h1>
-          <button onClick={reset}>Reset</button>
+          <div className="game-controls">
+            <Card isMini={true} character={selectedCharacter} />
+            <button onClick={reset}>Reset</button>
+            <button onClick={newGame}>New Game</button>
+          </div>
         </header >
-        <main className="App-header">
-          {currentGame.map(x => <Card key={x.key} character={x} />)}
+        <main className="Game">
+          {currentGame.map(x => <Card key={x.key} character={x} onChange={selectCharacter} hasSelectedCharacter={!!selectedCharacter} />)}
         </main>
       </div>
     );
