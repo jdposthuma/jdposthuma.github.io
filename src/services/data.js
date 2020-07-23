@@ -36,11 +36,11 @@ const games = {
         },
         {
             name: "jaune",
-            url: "https://vignette.wikia.nocookie.net/rwby/images/1/18/Jaune_ProfilePic_4.png/revision/latest?cb=20161104220926",
+            url: "https://pm1.narvii.com/6384/38adb04235a5d96a39cae28f98db5599c544e680_00.jpg",
         },
         {
             name: "cinder",
-            url: "https://vignette.wikia.nocookie.net/rwby/images/2/24/Cinder_ProfilePic_Normal.png/revision/latest?cb=20141223010925",
+            url: "https://static.zerochan.net/Cinder.Fall.full.2566398.jpg",
         },
         {
             name: "qrow",
@@ -66,7 +66,7 @@ const games = {
         },
         {
             name: "maria",
-            url:  "https://pm1.narvii.com/7034/d7d390b0391f4348eb6f6236636c7196cccffc1dr1-583-1166v2_hq.jpg",
+            url:  "https://vignette.wikia.nocookie.net/rwby/images/f/f7/Maria_infobox_2.png/revision/latest?cb=20190926115325",
             flipped: false
         },
         {
@@ -104,6 +104,72 @@ const games = {
             url:  "https://i.ytimg.com/vi/Rtx_EFtZTV0/hqdefault.jpg",
             flipped: false
         },
+        {
+            name: "winter maiden",
+            url:  "https://vignette.wikia.nocookie.net/rwby/images/e/e8/V7_13_00105.png/revision/latest/scale-to-width-down/340?cb=20200208170942",
+            flipped: false
+        },
+        {
+            name: "adam",
+            url:  "https://cdn.jwplayer.com/v2/media/SECNV0ae/poster.jpg?width=640",
+            flipped: false
+        },
+        {
+            name: "raven",
+            url:  "https://pm1.narvii.com/6333/6188ac46d16b289ca96c62982eafcc584f9c2e5e_00.jpg",
+            flipped: false
+        },
+        {
+            name: "penny",
+            url:  "https://vignette.wikia.nocookie.net/rwby/images/4/44/Penny_ProfilePic_2.png/revision/latest/top-crop/width/300/height/300?cb=20151214091735",
+            flipped: false
+        },
+        {
+            name: "sun",
+            url:  "https://vignette.wikia.nocookie.net/rwby/images/8/88/Vol_6_Sun_Wukong.png/revision/latest/top-crop/width/360/height/450?cb=20190105050539",
+            flipped: false
+        },
+        {
+            name: "neptune",
+            url:  "https://vignette.wikia.nocookie.net/rwby/images/5/55/Neptune_V6_01.png/revision/latest/top-crop/width/360/height/450?cb=20181103201814",
+            flipped: false
+        },
+        {
+            name: "sage",
+            url:  "https://vignette.wikia.nocookie.net/rwby/images/3/35/Sageib2.jpg/revision/latest?cb=20190707072648",
+            flipped: false
+        },
+        {
+            name: "watts",
+            url:  "https://vignette.wikia.nocookie.net/villains/images/c/c8/WattsV5.png/revision/latest?cb=20180114001538",
+            flipped: false
+        },
+        {
+            name: "velvet",
+            url:  "https://vignette.wikia.nocookie.net/rwby/images/4/40/V2_08_00049.png/revision/latest?cb=20140925233036",
+            flipped: false
+        },
+        {
+            name: "neon",
+            url:  "https://i.pinimg.com/236x/40/dd/50/40dd5062512f3f22cc83179c78de6fdb--rwby-wikia-neon-katt.jpg",
+            flipped: false
+        },
+        {
+            name: "yatsuhashi",
+            url:  "https://vignette.wikia.nocookie.net/rwby/images/a/a1/Yatsuhashi_templater.png/revision/latest/top-crop/width/360/height/450?cb=20160417181204",
+            flipped: false
+        },
+        {
+            name: "ironwood",
+            url:  "https://vignette.wikia.nocookie.net/rwby/images/2/22/Ironwood2.png/revision/latest?cb=20190928175846",
+            flipped: false
+        },
+        {
+            name: "jacques",
+            url:  "https://vignette.wikia.nocookie.net/villains/images/3/3a/Jacques_Schnee_Profile.png/revision/latest?cb=20161225213146",
+            flipped: false
+        }
+        
     ],
     "Bay's RWBY": [{
             name: "Ruby",
