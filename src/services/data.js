@@ -235,39 +235,7 @@ const games = {
             name: "qrow",
             url:  "https://pm1.narvii.com/6426/06194d110924f0fb31acfc1b333183abb2d63043_hq.jpg",
             flipped: false
-        },
-        {
-            name: "",
-            url:  "",
-            flipped: false
-        },
-        {
-            name: "",
-            url:  "",
-            flipped: false
-        },
-        {
-            name: "",
-            url:  "",
-            flipped: false
-        },
-        {
-            name: "",
-            url:  "",
-            flipped: false
-        },
-        {
-            name: "",
-            url:  "",
-            flipped: false
-        },
-        {
-            name: "",
-            url:  "",
-            flipped: false
-        },
-
-
+        }
     ],
     "Jasons's SAO": [{
             name: "Asuna",
