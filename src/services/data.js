@@ -82,7 +82,7 @@ const games = {
         },
         {
             name: "Nora",
-            url: "https://vignette.wikia.nocookie.net/eternalwitness/images/3/39/Vol2_Nora_ProfilePic_PJ.png/revision/latest?cb=20161005032405",
+            url: "https://vignette.wikia.nocookie.net/characterprofile/images/f/f0/Nora.png/revision/latest/scale-to-width-down/340?cb=20160124215026",
             flipped: false
         },
         {
@@ -92,7 +92,7 @@ const games = {
         },
         {
             name: "ren",
-            url: "https://i.pinimg.com/originals/75/6d/4f/756d4f2ebabb992b05cbe313278fea23.png",
+            url: "https://vignette.wikia.nocookie.net/rwby/images/f/f6/Renv6lost.png/revision/latest?cb=20191020023321",
             flipped: false
         },
         {
@@ -121,33 +121,33 @@ const games = {
             flipped: false
         },
         {
-            name: "",
-            url:  "",
+            name: "tyrian",
+            url:  "https://pm1.narvii.com/6428/5e20b49ba4b1a0a27beb5e337b5db80c079df19b_hq.jpg",
             flipped: false
         },
         {
-            name: "",
-            url:  "",
+            name: "winter",
+            url:  "https://vignette.wikia.nocookie.net/rwby/images/7/73/N6v1z84a.png/revision/latest?cb=20200529132141",
             flipped: false
         },
         {
-            name: "",
-            url:  "",
+            name: "neptune",
+            url:  "https://i1.sndcdn.com/avatars-000326326832-ue4g0e-t500x500.jpg",
             flipped: false
         },
         {
-            name: "",
-            url:  "",
+            name: "cinder",
+            url:  "https://vignette.wikia.nocookie.net/rwby/images/e/e1/Cinderv3c10.png/revision/latest?cb=20200125020933",
             flipped: false
         },
         {
-            name: "",
-            url:  "",
+            name: "jaque",
+            url:  "https://pm1.narvii.com/6386/1dab0deb99d31a8d037895be6bab0700718a93d5_hq.jpg",
             flipped: false
         },
         {
-            name: "",
-            url:  "",
+            name: "hazel",
+            url:  "https://static.tvtropes.org/pmwiki/pub/images/hazel_rainart_3.png",
             flipped: false
         },
 
