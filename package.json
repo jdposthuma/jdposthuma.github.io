@@ -16,7 +16,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "copy": "cp -r build/* ../jdposthuma.github.io/guess-who",
+    "clean": "rm -rf ../jdposthuma.github.io/guess-who/*"
   },
   "eslintConfig": {
     "extends": "react-app"
