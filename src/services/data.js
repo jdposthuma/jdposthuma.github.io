@@ -463,7 +463,103 @@ const games = {
         flipped: false
 
     }],
-    "Family": []
+    "Marine Animals": [{
+        name: "Dolphin",
+        url: "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2020/06/931/524/Dolphin-istock.jpg?ve=1&tl=1",
+        flipped: false
+    },{
+        name: "Moon Jelly",
+        url: "https://upload.wikimedia.org/wikipedia/commons/2/27/Moon_jellyfish_at_Gota_Sagher.JPG",
+        flipped: false
+    },{
+        name: "Blue Whale",
+        url: "https://www.novinite.com/media/images/2018-06/photo_verybig_190436.jpg",
+        flipped: false
+    },{
+        name: "Hammerhead Shark",
+        url: "https://ychef.files.bbci.co.uk/624x351/p037p15v.jpg",
+        flipped: false
+    },{
+        name: "Giant Manta Ray",
+        url: "https://i.ytimg.com/vi/aWBX1Hb011A/maxresdefault.jpg",
+        flipped: false
+    },{
+        name: "Marble Starfish",
+        url: "https://www.tfhmagazine.com/-/media/Images/TFH2-NA/US/articles/554_marbled_or_tile_sea_stars.jpg",
+        flipped: false
+    },{
+        name: "Angle Fish",
+        url: "https://i.pinimg.com/originals/9e/c2/d7/9ec2d728cf3462608fbda6563cd0b0fd.jpg",
+        flipped: false
+    },{
+        name: "Krill",
+        url: "https://media.pri.org/s3fs-public/styles/open_graph/public/Meganyctiphanes_norvegica2.jpg?itok=RphxsQPX",
+        flipped: false
+    },{
+        name: "King Crab",
+        url: "https://i.pinimg.com/originals/2e/e6/18/2ee618afdd5189b092f163200a29533d.jpg",
+        flipped: false
+    },{
+        name: "Moray Eel",
+        url: "https://arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/J7LJ3K4OVFGODNAZBRPZ3QGGCU.jpg",
+        flipped: false
+    },{
+        name: "Electic Eel",
+        url: "https://thumbs-prod.si-cdn.com/RDEJlfNyeA96lkTJejRce_fyzJM=/fit-in/1600x0/https://public-media.si-cdn.com/filer/d1/a1/d1a14887-401d-4e89-99fc-142c0a5fe255/42-33048874.jpg",
+        flipped: false
+    },{
+        name: "Sperm Whale",
+        url: "https://oceanwide-4579.kxcdn.com/uploads/media-dynamic/cache/jpg_optimize/uploads/media/default/0001/28/thumb_27755_default_1600.jpeg",
+        flipped: false
+    },{
+        name: "Box Jellyfish",
+        url: "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/05/01/818952-jellyfish.jpg",
+        flipped: false
+    },{
+        name: "Bowhead Whale",
+        url: "https://cdn2.webdamdb.com/1280_IJffxfSU9g85.jpg?1531335045",
+        flipped: false
+    },{
+        name: "Great White Shark",
+        url: "https://i0.wp.com/www.studyfinds.org/wp-content/uploads/2019/10/AdobeStock_275390879.jpeg?fit=3129%2C2086&ssl=1",
+        flipped: false
+    },{
+        name: "Lemon Shark",
+        url: "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Lemonshark.JPG/1200px-Lemonshark.JPG",
+        flipped: false
+    },{
+        name: "Basking Shark",
+        url: "https://scitechdaily.com/images/Basking-Shark.jpg",
+        flipped: false
+    },{
+        name: "Gray Whale",
+        url: "https://i.pinimg.com/originals/e7/87/e7/e787e7748f655ffcb737093fad8ced23.png",
+        flipped: false
+    },{
+        name: "Narwhal",
+        url: "https://vignette.wikia.nocookie.net/endlessocean/images/7/76/Narwhal_RL.jpg/revision/latest?cb=20190216182201",
+        flipped: false
+    },{
+        name: "Shovel Nosed Guitar Fish",
+        url: "https://caseagrant.ucsd.edu/sites/default/files/shovelnose-guitarfish-bairstow.jpg",
+        flipped: false
+    },{
+        name: "Harbor Porpoise",
+        url: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Ecomare_-_bruinvis_Michael_in_2015_%28bruinvis-michael2015-9313-sw%29.jpg",
+        flipped: false
+    },{
+        name: "Vampire Squid",
+        url: "https://ourmarinespecies.com/wp-content/uploads/2018/06/vampire-squids-1.jpg",
+        flipped: false
+    },{
+        name: "Green Sea Turtle",
+        url: "https://www.wildrepublic.com/wp-content/uploads/2018/11/Green-Sea-Turtle-Shell-xl.jpg",
+        flipped: false
+    },{
+        name: "Bat Ray",
+        url: "https://lh3.googleusercontent.com/proxy/Pw_xrM9gB6uu5j9PM3UaEthvr3t-BLRyEus1i8SYYONeE5O397lTQDuc-zg1ZOArmA6mLo8Jm4ocQ1uYsuoNa0oPh2sq_VA1_qsMXu7wuyiwM-1zfyurlru13yfYI42bn-cgFnNSTm9p8kcy6amQ4LI7XkjH7TJV10copvA",
+        flipped: false
+    },]
 };
 
 module.exports = { games }
