@@ -1,13 +1,13 @@
 {
-  "main.css": "/guess-who/static/css/main.77e48515.chunk.css",
-  "main.js": "/guess-who/static/js/main.181dce22.chunk.js",
-  "main.js.map": "/guess-who/static/js/main.181dce22.chunk.js.map",
+  "main.css": "/guess-who/static/css/main.2d8a196b.chunk.css",
+  "main.js": "/guess-who/static/js/main.bfc92f50.chunk.js",
+  "main.js.map": "/guess-who/static/js/main.bfc92f50.chunk.js.map",
   "static/js/1.654a7b3b.chunk.js": "/guess-who/static/js/1.654a7b3b.chunk.js",
   "static/js/1.654a7b3b.chunk.js.map": "/guess-who/static/js/1.654a7b3b.chunk.js.map",
   "runtime~main.js": "/guess-who/static/js/runtime~main.54d5c85b.js",
   "runtime~main.js.map": "/guess-who/static/js/runtime~main.54d5c85b.js.map",
-  "static/css/main.77e48515.chunk.css.map": "/guess-who/static/css/main.77e48515.chunk.css.map",
+  "static/css/main.2d8a196b.chunk.css.map": "/guess-who/static/css/main.2d8a196b.chunk.css.map",
   "index.html": "/guess-who/index.html",
-  "precache-manifest.d23cb0eb49f9946ca8459b883c2eed56.js": "/guess-who/precache-manifest.d23cb0eb49f9946ca8459b883c2eed56.js",
+  "precache-manifest.a0b5d5256da89f5f616339b614b03fc4.js": "/guess-who/precache-manifest.a0b5d5256da89f5f616339b614b03fc4.js",
   "service-worker.js": "/guess-who/service-worker.js"
 }
